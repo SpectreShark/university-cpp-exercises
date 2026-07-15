@@ -1,0 +1,32 @@
+# CMake and compiler output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+
+# IDE and local files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+config.local.*
+credentials.*
+secrets.*
+*.key
+*.pem
+*.p12
+*.pfx
