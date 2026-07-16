@@ -33,12 +33,12 @@ public:
     IntVector operator+(IntVector& other) {
         for (int index = 0; index < size; index++) {
             if (at(index) == 0) {
-                throw string{"right mass has null"};
+                throw string{"left mass has null"};
             }
         }
         for (int index = 0; index < other.length(); index++) {
             if (other.at(index) == 0) {
-                throw string{"left mass has null"};
+                throw string{"right mass has null"};
             }
         }
 
@@ -53,12 +53,12 @@ public:
     IntVector operator-(IntVector& other) {
         for (int index = 0; index < size; index++) {
             if (at(index) == 0) {
-                throw string{"right mass has null"};
+                throw string{"left mass has null"};
             }
         }
         for (int index = 0; index < other.length(); index++) {
             if (other.at(index) == 0) {
-                throw string{"left mass has null"};
+                throw string{"right mass has null"};
             }
         }
 
